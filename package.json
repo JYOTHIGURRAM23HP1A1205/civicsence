@@ -19,7 +19,9 @@
     "react-leaflet": "^4.2.1",
     "react-map-gl": "^7.0.16",
     "react-router-dom": "^6.8.0",
-    "socket.io-client": "^4.8.3"
+    "socket.io-client": "^4.8.3",
+    "react-scripts": "5.0.1",
+    "typescript": "4.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,6 +37,16 @@
   "browserslist": {
     "production": [
       ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}      ">0.2%",
       "not dead",
       "not op_mini all"
     ],
